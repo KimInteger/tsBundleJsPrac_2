@@ -4,7 +4,7 @@ import makeLabel from './makelabel';
 import makeInputName from './makeInputWithName';
 import makeInputValue from './makeInputWithValue';
 
-function makeForm(element: HTMLDivElement): void {
+export default function makeForm(element: HTMLDivElement): void {
   let result: HTMLFormElement = document.createElement('form');
   setID(result, 'start-form');
   result.appendChild(
