@@ -4,11 +4,16 @@
   "description": "\"개발환경초기화 및 마이그레이션연습\"",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:babel": "npx babel src --out-dir dist --extensions \".ts\""
   },
   "author": "KimInteger",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
     "prettier": "^3.3.2"
   }
 }
