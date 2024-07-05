@@ -16,5 +16,5 @@ function plusAll(elements: string): void {
 }
 
 document.addEventListener('DOMContentLoaded', (): void => {
-  plusAll('hellow script');
+  plusAll('어서와요 뚝딱상점!');
 });
