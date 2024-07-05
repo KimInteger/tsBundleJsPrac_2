@@ -1,0 +1,11 @@
+{
+  "name": "mygration",
+  "version": "1.0.0",
+  "description": "\"개발환경초기화 및 마이그레이션연습\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KimInteger",
+  "license": "MIT"
+}
