@@ -1,3 +1,5 @@
+import './style/start.css';
+
 import hOneTag from './module/hOneTag';
 
 const root: HTMLElement = document.getElementById('root') as HTMLDivElement;
