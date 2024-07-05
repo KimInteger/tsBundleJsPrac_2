@@ -1,9 +1,6 @@
-const root: HTMLElement = document.getElementById('root') as HTMLDivElement;
+import hOneTag from './module/hOneTag';
 
-function hOneTag(textNode: string): string {
-  let result: string = `<h1>${textNode}</h1>`;
-  return result;
-}
+const root: HTMLElement = document.getElementById('root') as HTMLDivElement;
 
 function plusAll(elements: string): void {
   root.innerHTML = hOneTag(elements);
