@@ -1,4 +1,3 @@
-function setId(elements: string, attribute: string): string {
-  let result = elements;
-  return ``;
+function setID(element: HTMLElement, attribute: string): void {
+  element.setAttribute('id', attribute);
 }
